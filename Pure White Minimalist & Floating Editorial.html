@@ -1,0 +1,592 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuvin Interiors | Editorial Minimal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              edPure: "#ffffff",
+              edOff: "#fcfcfc",
+              edInk: "#111111",
+              edMuted: "#71717a",
+              edBorder: "#e4e4e7",
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              serif: ["Playfair Display", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Playfair+Display:ital,wght@0,400;1,400&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-edPure text-edInk font-sans overflow-x-hidden antialiased">
+    <nav
+      class="fixed w-full z-50 bg-white/60 backdrop-blur-md border-b border-edBorder text-edInk"
+    >
+      <div
+        class="max-w-7xl mx-auto px-8 py-5 flex justify-between items-center"
+      >
+        <div class="text-sm font-medium tracking-[0.3em] uppercase">
+          Yuvin
+          <span class="font-serif italic font-normal text-edMuted lowercase"
+            >design studio</span
+          >
+        </div>
+        <div
+          class="hidden md:flex space-x-12 text-[10px] uppercase tracking-[0.25em] text-edMuted"
+        >
+          <a
+            href="#home"
+            class="hover:text-edInk transition-colors duration-300"
+            >Overview</a
+          >
+          <a
+            href="#about"
+            class="hover:text-edInk transition-colors duration-300"
+            >Operational Schema</a
+          >
+          <a
+            href="#services"
+            class="hover:text-edInk transition-colors duration-300"
+            >Selected Works</a
+          >
+          <a
+            href="#strategy"
+            class="hover:text-edInk transition-colors duration-300"
+            >The Path</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-edInk transition-colors duration-300"
+            >Connect</a
+          >
+        </div>
+        <button class="md:hidden text-lg" id="edMenuToggle">
+          <i class="fa-solid fa-bars-neutral"></i>
+        </button>
+      </div>
+      <div
+        id="edMobileBox"
+        class="hidden bg-white text-center py-8 space-y-5 md:hidden uppercase text-[10px] tracking-[0.2em] border-t border-edBorder"
+      >
+        <a href="#home" class="block hover:text-edMuted">Overview</a>
+        <a href="#about" class="block hover:text-edMuted">Operational Schema</a>
+        <a href="#services" class="block hover:text-edMuted">Selected Works</a>
+        <a href="#strategy" class="block hover:text-edMuted">The Path</a>
+        <a href="#contact" class="block hover:text-edMuted">Connect</a>
+      </div>
+    </nav>
+
+    <header
+      id="home"
+      class="min-h-screen flex items-center px-8 max-w-7xl mx-auto relative"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-12 gap-12 w-full pt-24 items-center"
+      >
+        <div
+          class="md:col-span-6 space-y-6"
+          data-aos="fade-up"
+          data-aos-duration="1000"
+        >
+          <span
+            class="text-[10px] uppercase tracking-[0.3em] text-edMuted block"
+            >// ARCHITECTURAL TRANSPARENCY</span
+          >
+          <h1
+            class="text-4xl md:text-6xl font-serif font-light leading-[1.15] text-edInk"
+          >
+            Redefining space <br />through
+            <span class="italic text-edMuted">uncluttered logic.</span>
+          </h1>
+          <p class="text-edMuted text-xs font-light max-w-sm leading-relaxed">
+            Premium space engineering calibrated directly inside our exclusive
+            assembly systems in Chennai. Minimal structural margins,
+            factory-direct budget transparency.
+          </p>
+          <div class="pt-2">
+            <a
+              href="#contact"
+              class="inline-block border border-edInk text-edInk hover:bg-edInk hover:text-white px-8 py-3.5 text-[10px] uppercase tracking-[0.2em] transition-all duration-300"
+            >
+              Initiate Assessment
+            </a>
+          </div>
+        </div>
+        <div
+          class="md:col-span-6 flex justify-end"
+          data-aos="fade-left"
+          data-aos-duration="1200"
+        >
+          <div
+            class="w-full max-w-md h-[460px] bg-edOff border border-edBorder p-3 relative group"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800"
+              alt="Pure White Minimalist Interior Layout"
+              class="w-full h-full object-cover filter contrast-[95%] grayscale-[15%] transition duration-700"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="about"
+      class="py-28 max-w-6xl mx-auto px-8 border-t border-edBorder"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+        <div class="md:col-span-4" data-aos="fade-right">
+          <h2 class="text-xl font-serif tracking-wide text-edInk uppercase">
+            Direct Source <br /><span class="italic text-edMuted lowercase"
+              >calibration.</span
+            >
+          </h2>
+        </div>
+        <div
+          class="md:col-span-8 space-y-6 text-xs font-light text-edMuted leading-[1.85]"
+          data-aos="fade-left"
+        >
+          <p>
+            Yuvin Interiors builds turnkeys on exact industrial mathematics. By
+            utilizing our private production core inside Chennai, components
+            bypass external markup inflation, landing on-site accurately
+            adjusted to primary project constraints.
+          </p>
+          <p>
+            Across 200+ structural targets spanning premium real estates,
+            healthcare facilities, and corporate zones, our engineers safeguard
+            execution paths with clear 10-year warranty parameters.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-4 mt-24 border-t border-edBorder pt-12 text-center"
+      >
+        <div class="p-4" data-aos="fade-up">
+          <span class="text-2xl font-serif font-light text-edInk block"
+            >200 +</span
+          >
+          <span
+            class="text-[9px] uppercase tracking-[0.25em] text-edMuted mt-2 block"
+            >Deployments</span
+          >
+        </div>
+        <div class="p-4" data-aos="fade-up" data-aos-delay="100">
+          <span class="text-2xl font-serif font-light text-edInk block"
+            >35 Days</span
+          >
+          <span
+            class="text-[9px] uppercase tracking-[0.25em] text-edMuted mt-2 block"
+            >Handover Cycle</span
+          >
+        </div>
+        <div class="p-4" data-aos="fade-up" data-aos-delay="200">
+          <span class="text-2xl font-serif font-light text-edInk block"
+            >10 Yrs</span
+          >
+          <span
+            class="text-[9px] uppercase tracking-[0.25em] text-edMuted mt-2 block"
+            >Solid Guarantee</span
+          >
+        </div>
+        <div class="p-4" data-aos="fade-up" data-aos-delay="300">
+          <span class="text-2xl font-serif font-light text-edInk block"
+            >Direct</span
+          >
+          <span
+            class="text-[9px] uppercase tracking-[0.25em] text-edMuted mt-2 block"
+            >Factory Value</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="services"
+      class="py-24 bg-edOff border-t border-b border-edBorder"
+    >
+      <div class="max-w-7xl mx-auto px-8">
+        <div
+          class="flex flex-col md:flex-row md:items-end justify-between mb-16"
+          data-aos="fade-up"
+        >
+          <div>
+            <span
+              class="text-[9px] uppercase tracking-[0.3em] text-edMuted block mb-2"
+              >// SELECTED SPATIAL ITERATIONS</span
+            >
+            <h2 class="text-2xl font-serif font-light text-edInk">
+              The Architectural Catalogue
+            </h2>
+          </div>
+          <div class="text-[10px] font-mono text-edMuted mt-2 md:mt-0">
+            Filtered Indices: 10 Variance Sets
+          </div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+          <div class="space-y-3 group" data-aos="fade-up">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Wardrobe"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                01 // Sliding Storage Unit
+              </h3>
+              <span class="text-edMuted font-serif italic">Residential</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Kids"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                02 // Creative Growth Space
+              </h3>
+              <span class="text-edMuted font-serif italic">Residential</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Kitchen"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                03 // Integrated Culinary Dock
+              </h3>
+              <span class="text-edMuted font-serif italic">Residential</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Living"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                04 // Open Lounge Configuration
+              </h3>
+              <span class="text-edMuted font-serif italic">Residential</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1620626011160-9928f1b2b63a?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Washroom"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                05 // Monolithic Slate Suite
+              </h3>
+              <span class="text-edMuted font-serif italic">Residential</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Lobby"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                06 // Reception Framework
+              </h3>
+              <span class="text-edMuted font-serif italic">Commercial</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Clinic"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                07 // Contemporary Care Center
+              </h3>
+              <span class="text-edMuted font-serif italic">Commercial</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Office"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                08 // Operational Workspace Deck
+              </h3>
+              <span class="text-edMuted font-serif italic">Commercial</span>
+            </div>
+          </div>
+          <div class="space-y-3 group" data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Lounge"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                09 // Conference Salon Deck
+              </h3>
+              <span class="text-edMuted font-serif italic">Commercial</span>
+            </div>
+          </div>
+          <div
+            class="space-y-3 group sm:col-span-2 md:col-span-1"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="h-72 w-full overflow-hidden border border-edBorder p-2 bg-white"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?q=80&w=600"
+                class="w-full h-full object-cover filter grayscale contrast-105 group-hover:grayscale-0 transition duration-700"
+                alt="Suite"
+              />
+            </div>
+            <div
+              class="flex justify-between items-center text-[10px] tracking-wider px-1"
+            >
+              <h3 class="font-medium text-edInk uppercase">
+                10 // Master Architectural Sanctuary
+              </h3>
+              <span class="text-edMuted font-serif italic">Residential</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="strategy" class="py-24 max-w-5xl mx-auto px-8">
+      <h2
+        class="text-sm font-medium uppercase tracking-[0.25em] text-center mb-20 text-edInk"
+      >
+        Operational Sequential Flow
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div class="space-y-3" data-aos="fade-up" data-aos-delay="100">
+          <span class="font-mono text-xs text-edMuted block"
+            >01 / DIAGNOSTICS</span
+          >
+          <h4 class="text-xs font-semibold uppercase text-edInk tracking-wider">
+            Metric Capture
+          </h4>
+          <p class="text-[11px] text-edMuted leading-relaxed font-light">
+            Documenting spatial footprints and contractual targets completely.
+          </p>
+        </div>
+        <div class="space-y-3" data-aos="fade-up" data-aos-delay="200">
+          <span class="font-mono text-xs text-edMuted block"
+            >02 / RENDERING</span
+          >
+          <h4 class="text-xs font-semibold uppercase text-edInk tracking-wider">
+            Schematic Blueprints
+          </h4>
+          <p class="text-[11px] text-edMuted leading-relaxed font-light">
+            Assembling linear texture matrices and structural layout drafts.
+          </p>
+        </div>
+        <div class="space-y-3" data-aos="fade-up" data-aos-delay="300">
+          <span class="font-mono text-xs text-edMuted block"
+            >03 / FABRICATIONS</span
+          >
+          <h4 class="text-xs font-semibold uppercase text-edInk tracking-wider">
+            Factory Allocation
+          </h4>
+          <p class="text-[11px] text-edMuted leading-relaxed font-light">
+            Processing core materials inside our local automated Chennai
+            pipelines.
+          </p>
+        </div>
+        <div class="space-y-3" data-aos="fade-up" data-aos-delay="400">
+          <span class="font-mono text-xs text-edMuted block"
+            >04 / TRANSITION</span
+          >
+          <h4 class="text-xs font-semibold uppercase text-edInk tracking-wider">
+            Perfect Handover
+          </h4>
+          <p class="text-[11px] text-edMuted leading-relaxed font-light">
+            Punctual component setup executed safely on explicit timeline
+            targets.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-edOff border-t border-edBorder">
+      <div class="max-w-3xl mx-auto px-8">
+        <div class="text-center mb-16" data-aos="fade-up">
+          <h2 class="text-3xl font-serif font-light text-edInk">
+            Initiate Dialogue
+          </h2>
+          <p class="text-[11px] text-edMuted tracking-widest uppercase mt-2">
+            Private Spatial Consultation Registry
+          </p>
+        </div>
+
+        <form
+          onsubmit="event.preventDefault(); alert('Registry Transmitted.');"
+          class="space-y-8 text-xs font-light"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <input
+              type="text"
+              placeholder="Full Name Label"
+              required
+              class="w-full pb-3 bg-transparent border-b border-edBorder focus:border-edInk focus:outline-none transition-colors text-edInk"
+            />
+            <input
+              type="email"
+              placeholder="Email Communication Channel"
+              required
+              class="w-full pb-3 bg-transparent border-b border-edBorder focus:border-edInk focus:outline-none transition-colors text-edInk"
+            />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <input
+              type="tel"
+              placeholder="Mobile Identity Matrix"
+              required
+              class="w-full pb-3 bg-transparent border-b border-edBorder focus:border-edInk focus:outline-none transition-colors text-edInk"
+            />
+            <input
+              type="text"
+              placeholder="Site Deployment Area"
+              class="w-full pb-3 bg-transparent border-b border-edBorder focus:border-edInk focus:outline-none transition-colors text-edInk"
+            />
+          </div>
+          <textarea
+            placeholder="Outline primary structural/budget goals..."
+            rows="3"
+            class="w-full pb-3 bg-transparent border-b border-edBorder focus:border-edInk focus:outline-none transition-colors text-edInk resize-none"
+          ></textarea>
+
+          <div class="text-center pt-4">
+            <button
+              type="submit"
+              class="border border-edInk text-edInk bg-white hover:bg-edInk hover:text-white text-[10px] font-medium uppercase tracking-[0.25em] px-12 py-4 transition-all duration-300"
+            >
+              Transmit Brief parameters
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      class="bg-white py-12 text-center text-[9px] tracking-[0.3em] text-edMuted uppercase border-t border-edBorder"
+    >
+      <p>© 2026 Yuvin Design Labs. Production Lines Supervised Locally.</p>
+
+      <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <a
+          href="#"
+          class="w-10 h-10 bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-sm hover:scale-105 transition"
+          ><i class="fa-brands fa-whatsapp text-base"></i
+        ></a>
+        <a
+          href="#"
+          class="w-10 h-10 bg-edInk text-white rounded-full flex items-center justify-center shadow-sm hover:scale-105 transition"
+          ><i class="fa-solid fa-phone text-xs"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 850, once: true });
+
+      const handlerBtn = document.getElementById("edMenuToggle");
+      const boxPanelNav = document.getElementById("edMobileBox");
+      handlerBtn.addEventListener("click", () =>
+        boxPanelNav.classList.toggle("hidden")
+      );
+    </script>
+  </body>
+</html>

@@ -1,0 +1,900 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuvin Interior Studio | Global Fusion Elite</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              studioDark: "#131416",
+              studioLight: "#fcfbfa",
+              studioGold: "#d9b470",
+              studioMuted: "#6e7075",
+              studioCardBg: "#1b1d21",
+            },
+            fontFamily: {
+              sans: ["Inter", "sans-serif"],
+              serif: ["Cinzel", "serif"],
+            },
+          },
+        },
+      };
+    </script>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Cinzel:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body
+    class="bg-studioLight text-studioDark font-sans overflow-x-hidden antialiased"
+  >
+    <div
+      class="bg-studioDark text-white text-[10px] uppercase tracking-[0.3em] py-2 px-6 text-center border-b border-white/5"
+    >
+      Factory-Direct Manufacturing Pricing // 10-Year Comprehensive Warranty
+      Assured
+    </div>
+
+    <nav
+      class="sticky top-0 w-full z-50 bg-studioLight/80 backdrop-blur-md border-b border-zinc-200/40"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div
+          class="text-lg font-serif tracking-[0.2em] uppercase text-studioDark"
+        >
+          Yuvin <span class="text-studioGold font-normal">Studio</span>
+        </div>
+        <div
+          class="hidden md:flex space-x-10 text-[11px] uppercase tracking-[0.2em] font-medium text-studioMuted"
+        >
+          <a href="#overview" class="hover:text-studioDark transition"
+            >Overview</a
+          >
+          <a href="#advantage" class="hover:text-studioDark transition"
+            >Value Metrics</a
+          >
+          <a href="#gallery" class="hover:text-studioDark transition"
+            >Portfolio Showcase</a
+          >
+          <a href="#process" class="hover:text-studioDark transition"
+            >Workflow</a
+          >
+          <a href="#faq" class="hover:text-studioDark transition">FAQs</a>
+        </div>
+        <div class="hidden md:block">
+          <a
+            href="#inquire"
+            class="bg-studioDark text-white hover:bg-studioGold hover:text-studioDark px-6 py-2.5 text-[10px] uppercase tracking-widest font-semibold transition-all duration-300"
+          >
+            Book Consult
+          </a>
+        </div>
+        <button class="md:hidden text-lg text-studioDark" id="fusionMenuBtn">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+      <div
+        id="fusionMobileBox"
+        class="hidden bg-studioLight text-center py-6 space-y-4 md:hidden uppercase text-xs tracking-widest border-t border-zinc-200/60"
+      >
+        <a
+          href="#overview"
+          class="block py-1 text-studioMuted hover:text-studioDark"
+          >Overview</a
+        >
+        <a
+          href="#advantage"
+          class="block py-1 text-studioMuted hover:text-studioDark"
+          >Value Metrics</a
+        >
+        <a
+          href="#gallery"
+          class="block py-1 text-studioMuted hover:text-studioDark"
+          >Portfolio Showcase</a
+        >
+        <a
+          href="#process"
+          class="block py-1 text-studioMuted hover:text-studioDark"
+          >Workflow</a
+        >
+        <a href="#faq" class="block py-1 text-studioMuted hover:text-studioDark"
+          >FAQs</a
+        >
+        <a
+          href="#inquire"
+          class="inline-block bg-studioDark text-white px-6 py-2 text-[10px]"
+          >Book Consult</a
+        >
+      </div>
+    </nav>
+
+    <header
+      id="overview"
+      class="min-h-[85vh] flex items-center px-6 max-w-7xl mx-auto relative border-b border-zinc-200/40"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center w-full py-12"
+      >
+        <div class="md:col-span-6 space-y-6" data-aos="fade-right">
+          <div
+            class="inline-flex items-center gap-2 px-3 py-1 bg-zinc-100 text-studioMuted text-[10px] uppercase tracking-widest font-medium rounded-full"
+          >
+            <span
+              class="w-2 h-2 rounded-full bg-emerald-500 animate-pulse"
+            ></span>
+            Production Core Active in Chennai
+          </div>
+          <h1
+            class="text-4xl md:text-5xl font-serif text-studioDark leading-[1.2] tracking-wide"
+          >
+            Architectural Excellence. <br /><span
+              class="italic font-light text-studioGold"
+              >Radically Honest Budgeting.</span
+            >
+          </h1>
+          <p
+            class="text-studioMuted text-xs font-light max-w-lg leading-relaxed"
+          >
+            By syncronizing global engineering blueprints with our own
+            end-to-end local fabrication engine in Chennai, we drop unnecessary
+            third-party dealer premiums completely. Experience custom
+            architectural transformation mapped flawlessly to realistic
+            deployment scales.
+          </p>
+          <div class="flex items-center gap-4 pt-2">
+            <a
+              href="#inquire"
+              class="bg-studioDark text-white hover:bg-zinc-800 px-8 py-4 text-xs uppercase tracking-widest transition-all shadow-md"
+            >
+              Start Your Blueprint
+            </a>
+            <a
+              href="#gallery"
+              class="text-xs uppercase tracking-widest font-semibold border-b border-studioDark pb-1 hover:text-studioGold hover:border-studioGold transition"
+            >
+              View Showcases
+            </a>
+          </div>
+        </div>
+
+        <div
+          class="md:col-span-6 grid grid-cols-12 gap-4 items-center"
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+        >
+          <div class="col-span-7">
+            <img
+              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600"
+              alt="Living Architecture"
+              class="w-full h-80 object-cover rounded-sm shadow-md hover:scale-102 transition duration-500"
+            />
+          </div>
+          <div class="col-span-5 space-y-4">
+            <img
+              src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=400"
+              alt="Kitchen Station"
+              class="w-full h-40 object-cover rounded-sm shadow-sm"
+            />
+            <img
+              src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=400"
+              alt="Bespoke Wardrobe"
+              class="w-full h-36 object-cover rounded-sm shadow-sm"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="advantage"
+      class="py-24 max-w-6xl mx-auto px-6 border-b border-zinc-200/40"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-start">
+        <div class="space-y-3" data-aos="fade-up">
+          <span
+            class="text-[10px] text-studioGold uppercase tracking-widest font-bold block"
+            >// WHY YUVIN ECOSYSTEM</span
+          >
+          <h2 class="text-2xl font-serif text-studioDark">
+            Zero Markup, Complete Clarity
+          </h2>
+          <p class="text-studioMuted text-xs font-light leading-relaxed">
+            Most design houses buy layouts and outsourced assets through
+            third-party supply lines. Yuvin controls the pipeline locally,
+            reducing your overhead burdens.
+          </p>
+        </div>
+
+        <div class="md:col-span-2 grid grid-cols-1 sm:grid-cols-2 gap-6">
+          <div
+            class="bg-white p-6 border border-zinc-200/60 shadow-sm rounded-sm"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="text-studioGold text-xl mb-2">
+              <i class="fa-solid fa-industry"></i>
+            </div>
+            <h3
+              class="text-xs uppercase tracking-wider font-semibold text-studioDark"
+            >
+              Direct Factory Engine
+            </h3>
+            <p class="text-[11px] text-studioMuted mt-1 leading-relaxed">
+              Custom board setups processed right inside our dedicated automated
+              lines in Chennai.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 border border-zinc-200/60 shadow-sm rounded-sm"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="text-studioGold text-xl mb-2">
+              <i class="fa-solid fa-calendar-check"></i>
+            </div>
+            <h3
+              class="text-xs uppercase tracking-wider font-semibold text-studioDark"
+            >
+              35-Day Fluid Handover
+            </h3>
+            <p class="text-[11px] text-studioMuted mt-1 leading-relaxed">
+              Highly responsive scheduling matrices optimize your operational
+              real estate faster.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 border border-zinc-200/60 shadow-sm rounded-sm"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="text-studioGold text-xl mb-2">
+              <i class="fa-solid fa-shield-halved"></i>
+            </div>
+            <h3
+              class="text-xs uppercase tracking-wider font-semibold text-studioDark"
+            >
+              10-Year True Guarantee
+            </h3>
+            <p class="text-[11px] text-studioMuted mt-1 leading-relaxed">
+              Structural calibrations and material hardware backed perfectly via
+              long-term contracts.
+            </p>
+          </div>
+          <div
+            class="bg-white p-6 border border-zinc-200/60 shadow-sm rounded-sm"
+            data-aos="fade-up"
+            data-aos-delay="400"
+          >
+            <div class="text-studioGold text-xl mb-2">
+              <i class="fa-solid fa-handshake-angle"></i>
+            </div>
+            <h3
+              class="text-xs uppercase tracking-wider font-semibold text-studioDark"
+            >
+              200+ Absolute Deployments
+            </h3>
+            <p class="text-[11px] text-studioMuted mt-1 leading-relaxed">
+              Successful turnkeys configured perfectly across spaces, clinics,
+              and business parks.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="py-24 bg-zinc-50 border-b border-zinc-200/40">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-xl mx-auto mb-16" data-aos="fade-up">
+          <span
+            class="text-[10px] text-studioMuted uppercase tracking-[0.3em] font-medium block mb-2"
+            >// HIGH-FIDELITY INDICES</span
+          >
+          <h2 class="text-3xl font-serif text-studioDark">
+            The Master Blueprint Catalogue
+          </h2>
+          <div class="w-10 h-[1px] bg-studioGold mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Wardrobe"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Bespoke In-Built Sliding Wardrobe
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Residential Setups</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.01</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Kids"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Creative Modular Kids Retreat
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Residential Setups</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.02</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Kitchen"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Sleek Multi-Tier Culinary Station
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Residential Setups</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.03</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Living"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Soft Modern Luxury Living Hub
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Residential Setups</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.04</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1620626011160-9928f1b2b63a?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Washroom"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Polished Minimalist Slate Restroom
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Residential Setups</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.05</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Lobby"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Executive High-Ceiling Reception Lounge
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Commercial Spaces</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.06</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Clinic"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Premium Healthcare & Wellness Consultation Clinic
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Commercial Spaces</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.07</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Office"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Agile Collaborative Corporate Desk Grid
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Commercial Spaces</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.08</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Lounge"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Acoustic Executive Boardroom Conference Deck
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Commercial Spaces</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.09</span
+              >
+            </div>
+          </div>
+          <div
+            class="bg-white border border-zinc-200/60 p-3 group rounded-sm shadow-sm sm:col-span-2 md:col-span-1"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="h-60 overflow-hidden bg-zinc-100 rounded-sm">
+              <img
+                src="https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-102 transition duration-500"
+                alt="Suite"
+              />
+            </div>
+            <div class="mt-4 flex justify-between items-start px-1">
+              <div>
+                <h3
+                  class="text-xs font-semibold uppercase tracking-wider text-studioDark"
+                >
+                  Signature Premium Architectural Master Sanctuary
+                </h3>
+                <span
+                  class="text-[10px] text-studioMuted uppercase tracking-widest block mt-1"
+                  >Residential Setups</span
+                >
+              </div>
+              <span
+                class="text-[10px] font-mono text-studioGold bg-zinc-50 px-2 py-0.5 rounded-sm"
+                >V.10</span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="process"
+      class="py-24 max-w-5xl mx-auto px-6 border-b border-zinc-200/40"
+    >
+      <h2
+        class="text-2xl font-serif text-center text-studioDark mb-16 uppercase tracking-wider"
+      >
+        The Standard Blueprint Pipeline
+      </h2>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-8 font-sans">
+        <div
+          class="bg-white border border-zinc-200/50 p-5 relative"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <span
+            class="text-3xl font-serif font-light text-studioGold/30 absolute right-4 top-2"
+            >01</span
+          >
+          <h4
+            class="text-xs font-bold uppercase text-studioDark tracking-wider"
+          >
+            Metric Audit
+          </h4>
+          <p class="text-[11px] text-studioMuted mt-2 leading-relaxed">
+            Capturing exact site footprints and lifestyle boundaries flawlessly.
+          </p>
+        </div>
+        <div
+          class="bg-white border border-zinc-200/50 p-5 relative"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <span
+            class="text-3xl font-serif font-light text-studioGold/30 absolute right-4 top-2"
+            >02</span
+          >
+          <h4
+            class="text-xs font-bold uppercase text-studioDark tracking-wider"
+          >
+            Render Assembly
+          </h4>
+          <p class="text-[11px] text-studioMuted mt-2 leading-relaxed">
+            Delivering comprehensive 2D layouts and texture pairing matrices.
+          </p>
+        </div>
+        <div
+          class="bg-white border border-zinc-200/50 p-5 relative"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <span
+            class="text-3xl font-serif font-light text-studioGold/30 absolute right-4 top-2"
+            >03</span
+          >
+          <h4
+            class="text-xs font-bold uppercase text-studioDark tracking-wider"
+          >
+            Factory Allocation
+          </h4>
+          <p class="text-[11px] text-studioMuted mt-2 leading-relaxed">
+            Automating precision board cuts directly within our Chennai setup.
+          </p>
+        </div>
+        <div
+          class="bg-white border border-zinc-200/50 p-5 relative"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <span
+            class="text-3xl font-serif font-light text-studioGold/30 absolute right-4 top-2"
+            >04</span
+          >
+          <h4
+            class="text-xs font-bold uppercase text-studioDark tracking-wider"
+          >
+            Turnkey Lock
+          </h4>
+          <p class="text-[11px] text-studioMuted mt-2 leading-relaxed">
+            Punctual site deployment completed cleanly inside 35 days.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="faq" class="py-24 max-w-4xl mx-auto px-6">
+      <div class="text-center mb-12" data-aos="fade-up">
+        <h2
+          class="text-2xl font-serif text-studioDark uppercase tracking-wider"
+        >
+          Frequently Calibrated Questions
+        </h2>
+        <p class="text-xs text-studioMuted mt-2">
+          Clear data transparency before launching structural briefs.
+        </p>
+      </div>
+
+      <div
+        class="space-y-4 font-sans text-xs"
+        data-aos="fade-up"
+        data-aos-delay="100"
+      >
+        <div
+          class="bg-white border border-zinc-200/60 rounded-sm overflow-hidden"
+        >
+          <button
+            onclick="toggleFaq('faq1')"
+            class="w-full text-left p-5 font-semibold text-studioDark flex justify-between items-center hover:bg-zinc-50 transition"
+          >
+            <span
+              >How does Yuvin maintain wholesale parameters without hidden
+              markup premiums?</span
+            >
+            <i
+              class="fa-solid fa-chevron-down text-[10px] text-studioGold transition-transform duration-300"
+              id="faq1-icon"
+            ></i>
+          </button>
+          <div
+            id="faq1"
+            class="hidden p-5 pt-0 text-studioMuted border-t border-zinc-100 leading-relaxed font-light"
+          >
+            We eliminate corporate middleman networks entirely by operating our
+            private local assembly plant in Chennai. Materials are processed
+            straight from raw industrial boards to direct installation
+            components.
+          </div>
+        </div>
+        <div
+          class="bg-white border border-zinc-200/60 rounded-sm overflow-hidden"
+        >
+          <button
+            onclick="toggleFaq('faq2')"
+            class="w-full text-left p-5 font-semibold text-studioDark flex justify-between items-center hover:bg-zinc-50 transition"
+          >
+            <span
+              >What exact metrics govern the 10-Year Comprehensive Warranty
+              setup?</span
+            >
+            <i
+              class="fa-solid fa-chevron-down text-[10px] text-studioGold transition-transform duration-300"
+              id="faq2-icon"
+            ></i>
+          </button>
+          <div
+            id="faq2"
+            class="hidden p-5 pt-0 text-studioMuted border-t border-zinc-100 leading-relaxed font-light"
+          >
+            Our warranty protects your investment against structural core
+            delamination, alignment degradation, and functional hardware
+            anomalies under standard lifecycle usage conditions.
+          </div>
+        </div>
+        <div
+          class="bg-white border border-zinc-200/60 rounded-sm overflow-hidden"
+        >
+          <button
+            onclick="toggleFaq('faq3')"
+            class="w-full text-left p-5 font-semibold text-studioDark flex justify-between items-center hover:bg-zinc-50 transition"
+          >
+            <span
+              >Is the 35-day handover clause contractually safeguarded?</span
+            >
+            <i
+              class="fa-solid fa-chevron-down text-[10px] text-studioGold transition-transform duration-300"
+              id="faq3-icon"
+            ></i>
+          </button>
+          <div
+            id="faq3"
+            class="hidden p-5 pt-0 text-studioMuted border-t border-zinc-100 leading-relaxed font-light"
+          >
+            Yes. Our contractual milestones clearly articulate initialization
+            dates and execution maps, tracking factory outputs down to precise
+            deployment intervals.
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="inquire"
+      class="py-24 bg-studioDark text-white border-t border-white/5"
+    >
+      <div class="max-w-4xl mx-auto px-6">
+        <div class="text-center max-w-lg mx-auto mb-16" data-aos="fade-up">
+          <h2 class="text-3xl font-serif text-studioGold tracking-wide">
+            Initiate Precision Consultation
+          </h2>
+          <p
+            class="text-[11px] text-zinc-400 mt-2 font-light tracking-wider uppercase"
+          >
+            Submit project parameters below for immediate engineering alignment.
+          </p>
+        </div>
+
+        <form
+          onsubmit="event.preventDefault(); alert('Brief locked into processing cycle.');"
+          class="space-y-6 text-xs font-light"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input
+              type="text"
+              placeholder="Full Name"
+              required
+              class="w-full p-4 bg-zinc-900 border border-zinc-800 focus:border-studioGold focus:outline-none text-white rounded-sm"
+            />
+            <input
+              type="email"
+              placeholder="Email Reference"
+              required
+              class="w-full p-4 bg-zinc-900 border border-zinc-800 focus:border-studioGold focus:outline-none text-white rounded-sm"
+            />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input
+              type="tel"
+              placeholder="Mobile Identity"
+              required
+              class="w-full p-4 bg-zinc-900 border border-zinc-800 focus:border-studioGold focus:outline-none text-white rounded-sm"
+            />
+            <input
+              type="text"
+              placeholder="Site Coordinates / Area"
+              class="w-full p-4 bg-zinc-900 border border-zinc-800 focus:border-studioGold focus:outline-none text-white rounded-sm"
+            />
+          </div>
+          <textarea
+            placeholder="Describe your structural targets, space count, or budget horizons..."
+            rows="4"
+            class="w-full p-4 bg-zinc-900 border border-zinc-800 focus:border-studioGold focus:outline-none text-white rounded-sm resize-none"
+          ></textarea>
+
+          <div class="text-center pt-2">
+            <button
+              type="submit"
+              class="bg-studioGold text-studioDark font-bold text-[11px] uppercase tracking-widest px-12 py-4 hover:bg-yellow-600 transition shadow-lg rounded-sm"
+            >
+              Transmit Parameters
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      class="bg-studioDark py-12 text-center text-[10px] tracking-widest text-studioMuted uppercase border-t border-white/5"
+    >
+      <p>
+        © 2026 Yuvin Interior Architecture Studio. Clean Execution Globally.
+      </p>
+
+      <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <a
+          href="#"
+          class="w-11 h-11 bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition"
+          ><i class="fa-brands fa-whatsapp text-lg"></i
+        ></a>
+        <a
+          href="#"
+          class="w-11 h-11 bg-studioGold text-studioDark rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition"
+          ><i class="fa-solid fa-phone text-xs"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 900, once: true });
+
+      // Navigation Logic
+      const toggler = document.getElementById("fusionMenuBtn");
+      const boxPanel = document.getElementById("fusionMobileBox");
+      toggler.addEventListener("click", () =>
+        boxPanel.classList.toggle("hidden")
+      );
+
+      // Interactive Accordion Controller
+      function toggleFaq(id) {
+        const el = document.getElementById(id);
+        const icon = document.getElementById(id + "-icon");
+        el.classList.toggle("hidden");
+        icon.classList.toggle("rotate-180");
+      }
+    </script>
+  </body>
+</html>

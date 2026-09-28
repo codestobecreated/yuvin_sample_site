@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuvin Interiors | Midnight Royal</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              royalDark: "#0f1115",
+              royalSlate: "#1e222b",
+              royalGold: "#dfb76c",
+              royalBronze: "#b39256",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-royalDark text-gray-300 font-sans overflow-x-hidden">
+    <nav
+      class="fixed w-full z-50 bg-royalDark/80 backdrop-blur-lg text-white border-b border-white/5"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center"
+      >
+        <div
+          class="text-xl font-light tracking-[0.25em] uppercase flex items-center"
+        >
+          YUVIN <span class="text-royalGold ml-2 font-normal">STUDIO</span>
+        </div>
+        <div
+          class="hidden md:flex space-x-8 text-[11px] uppercase tracking-[0.2em] text-gray-400"
+        >
+          <a
+            href="#home"
+            class="hover:text-royalGold transition-all duration-300"
+            >01 // HOME</a
+          >
+          <a
+            href="#about"
+            class="hover:text-royalGold transition-all duration-300"
+            >02 // METRICS</a
+          >
+          <a
+            href="#services"
+            class="hover:text-royalGold transition-all duration-300"
+            >03 // CATALOGUE</a
+          >
+          <a
+            href="#strategy"
+            class="hover:text-royalGold transition-all duration-300"
+            >04 // TIMELINE</a
+          >
+          <a
+            href="#contact"
+            class="border border-royalGold/50 text-royalGold px-4 py-1.5 hover:bg-royalGold hover:text-royalDark transition-all duration-300 rounded-sm"
+            >INQUIRE NOW</a
+          >
+        </div>
+        <button class="md:hidden text-xl text-royalGold" id="royalNavToggle">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+      <div
+        id="royalMobileBox"
+        class="hidden bg-royalSlate text-center py-6 space-y-4 md:hidden uppercase text-xs tracking-widest border-t border-white/5"
+      >
+        <a href="#home" class="block hover:text-royalGold py-1">Home</a>
+        <a href="#about" class="block hover:text-royalGold py-1">Metrics</a>
+        <a href="#services" class="block hover:text-royalGold py-1"
+          >Catalogue</a
+        >
+        <a href="#strategy" class="block hover:text-royalGold py-1">Timeline</a>
+        <a href="#contact" class="block text-royalGold py-1">Inquire Now</a>
+      </div>
+    </nav>
+
+    <header
+      id="home"
+      class="min-h-screen relative flex items-center justify-center bg-gradient-to-b from-royalDark via-royalSlate to-royalDark px-6"
+    >
+      <div
+        class="max-w-6xl mx-auto w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center pt-16"
+      >
+        <div data-aos="fade-right" data-aos-duration="1000" class="space-y-6">
+          <div
+            class="flex items-center gap-2 text-royalGold text-xs uppercase tracking-[0.3em]"
+          >
+            <span class="w-8 h-[1px] bg-royalGold"></span> Elite Space
+            Orchestration
+          </div>
+          <h1 class="text-4xl md:text-6xl font-light text-white leading-tight">
+            Timeless spaces, <br /><span
+              class="font-normal italic text-transparent bg-clip-text bg-gradient-to-r from-royalGold to-amber-200"
+              >flawlessly executed.</span
+            >
+          </h1>
+          <p class="text-gray-400 text-sm max-w-md font-light leading-relaxed">
+            Premium architectural interior transformations engineered directly
+            within our automated Chennai manufacturing lines. No intermediaries,
+            pure budget optimization schemas.
+          </p>
+          <div class="pt-4">
+            <a
+              href="#contact"
+              class="inline-block bg-gradient-to-r from-royalGold to-royalBronze text-royalDark font-semibold px-8 py-4 rounded-sm text-xs uppercase tracking-widest hover:opacity-90 transition-all shadow-lg"
+            >
+              Request Private Estimate
+            </a>
+          </div>
+        </div>
+        <div
+          class="relative h-[450px] hidden md:block"
+          data-aos="zoom-in"
+          data-aos-duration="1200"
+        >
+          <div
+            class="absolute inset-0 border border-royalGold/20 translate-x-4 translate-y-4 rounded-sm"
+          ></div>
+          <div
+            class="w-full h-full p-2 bg-royalSlate border border-white/10 rounded-sm shadow-2xl overflow-hidden"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=800"
+              alt="Luxury Architectural Interior"
+              class="w-full h-full object-cover rounded-sm filter brightness-90 hover:scale-102 transition duration-700"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="about"
+      class="py-28 max-w-6xl mx-auto px-6 border-t border-white/5"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+        <div class="md:col-span-2 space-y-4" data-aos="fade-up">
+          <span
+            class="text-xs uppercase tracking-widest text-royalGold font-mono"
+            >// COST & SPEED LINEAR INTEGRATION</span
+          >
+          <h2 class="text-3xl font-light text-white uppercase tracking-wider">
+            Direct From Source Calibration
+          </h2>
+          <p class="text-gray-400 text-sm font-light leading-relaxed">
+            Yuvin Interiors structural parameters remove third-party wholesale
+            overhead distributions entirely. By maintaining full operational
+            management over our local processing core in Chennai, premium
+            commercial materials arrive on site matching real budget
+            configurations safely.
+          </p>
+        </div>
+
+        <div class="space-y-4 font-mono" data-aos="fade-left">
+          <div
+            class="bg-royalSlate p-6 border-r-2 border-royalGold/40 text-right"
+          >
+            <span class="text-3xl font-light text-white block">200 +</span>
+            <span
+              class="text-[10px] uppercase tracking-widest text-gray-500 font-sans"
+              >Sites Configured</span
+            >
+          </div>
+          <div
+            class="bg-royalSlate p-6 border-r-2 border-royalGold/40 text-right"
+          >
+            <span class="text-3xl font-light text-white block">35 Days</span>
+            <span
+              class="text-[10px] uppercase tracking-widest text-gray-500 font-sans"
+              >Turnkey Lock cycle</span
+            >
+          </div>
+          <div
+            class="bg-royalSlate p-6 border-r-2 border-royalGold/40 text-right"
+          >
+            <span class="text-3xl font-light text-white block">10 Yrs</span>
+            <span
+              class="text-[10px] uppercase tracking-widest text-gray-500 font-sans"
+              >Structural Warranty</span
+            >
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="services"
+      class="py-24 bg-royalSlate/40 border-t border-b border-white/5"
+    >
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-xl mx-auto mb-16" data-aos="fade-up">
+          <span
+            class="text-xs uppercase tracking-[0.25em] text-royalGold block mb-2"
+            >// LUXURY SPECIFICATION CATALOGUE</span
+          >
+          <h2 class="text-3xl font-light text-white tracking-wide">
+            Exhibited Layout Vectors
+          </h2>
+          <div class="w-12 h-[1px] bg-royalGold/30 mx-auto mt-4"></div>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Wardrobe"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >01 // RESIDENTIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Premium Slider Wardrobe
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Kids"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >02 // RESIDENTIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Creative Kid's Hub
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Kitchen"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >03 // RESIDENTIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Modular Culinary Deck
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Living"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >04 // RESIDENTIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Velvet Living Lounge
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1620626011160-9928f1b2b63a?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Washroom"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >05 // RESIDENTIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Porcelain Slate Suite
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Lobby"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >06 // COMMERCIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Corporate Front Foyer
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Clinic"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >07 // COMMERCIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Contemporary Health Wing
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="100"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Office"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >08 // COMMERCIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Bespoke Workspace Grid
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg"
+            data-aos="fade-up"
+            data-aos-delay="200"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Lounge"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >09 // COMMERCIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Executive Council Salon
+              </h3>
+            </div>
+          </div>
+          <div
+            class="bg-royalSlate border border-white/5 group rounded-sm overflow-hidden shadow-lg sm:col-span-2 md:col-span-1"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div class="h-64 overflow-hidden relative">
+              <img
+                src="https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?q=80&w=600"
+                class="w-full h-full object-cover group-hover:scale-105 transition duration-500 brightness-90"
+                alt="Suite"
+              />
+            </div>
+            <div class="p-4 flex justify-between items-center bg-royalDark/40">
+              <span class="text-xs text-gray-400 font-mono"
+                >10 // RESIDENTIAL</span
+              >
+              <h3 class="text-sm font-light text-white uppercase">
+                Signature Elite Bedroom
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="strategy" class="py-24 max-w-4xl mx-auto px-6">
+      <h2
+        class="text-2xl font-light text-center text-white mb-20 uppercase tracking-[0.2em]"
+      >
+        The Production Chain
+      </h2>
+
+      <div class="relative border-l border-white/10 ml-4 md:ml-32 space-y-12">
+        <div class="relative pl-8" data-aos="fade-up">
+          <span
+            class="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-royalGold -translate-x-[6.5px]"
+          ></span>
+          <span
+            class="text-[10px] text-royalGold font-mono uppercase tracking-widest block"
+            >Phase 01 //</span
+          >
+          <h4 class="text-sm font-medium text-white uppercase mt-0.5">
+            Volumetric Assessment
+          </h4>
+          <p class="text-xs text-gray-400 mt-2 max-w-xl leading-relaxed">
+            Mapping layout metrics and raw structural requirements seamlessly.
+          </p>
+        </div>
+        <div class="relative pl-8" data-aos="fade-up" data-aos-delay="100">
+          <span
+            class="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-royalGold -translate-x-[6.5px]"
+          ></span>
+          <span
+            class="text-[10px] text-royalGold font-mono uppercase tracking-widest block"
+            >Phase 02 //</span
+          >
+          <h4 class="text-sm font-medium text-white uppercase mt-0.5">
+            High-Fidelity Render Deck
+          </h4>
+          <p class="text-xs text-gray-400 mt-2 max-w-xl leading-relaxed">
+            Presenting digital space blueprints and texture layer matrices
+            directly.
+          </p>
+        </div>
+        <div class="relative pl-8" data-aos="fade-up" data-aos-delay="200">
+          <span
+            class="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-royalGold -translate-x-[6.5px]"
+          ></span>
+          <span
+            class="text-[10px] text-royalGold font-mono uppercase tracking-widest block"
+            >Phase 03 //</span
+          >
+          <h4 class="text-sm font-medium text-white uppercase mt-0.5">
+            Factory Production Execution
+          </h4>
+          <p class="text-xs text-gray-400 mt-2 max-w-xl leading-relaxed">
+            Processing automated assembly cuts inside our dedicated local
+            systems in Chennai.
+          </p>
+        </div>
+        <div class="relative pl-8" data-aos="fade-up" data-aos-delay="300">
+          <span
+            class="absolute left-0 top-1.5 w-3 h-3 rounded-full bg-royalGold -translate-x-[6.5px]"
+          ></span>
+          <span
+            class="text-[10px] text-royalGold font-mono uppercase tracking-widest block"
+            >Phase 04 //</span
+          >
+          <h4 class="text-sm font-medium text-white uppercase mt-0.5">
+            On-Schedule Handover
+          </h4>
+          <p class="text-xs text-gray-400 mt-2 max-w-xl leading-relaxed">
+            Punctual and perfect deployment completed securely within
+            contractual boundaries.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="py-24 bg-royalDark border-t border-white/5">
+      <div class="max-w-4xl mx-auto px-6">
+        <div class="text-center max-w-lg mx-auto mb-16" data-aos="fade-up">
+          <h2 class="text-3xl font-light text-white tracking-wide">
+            Initiate Private Curation
+          </h2>
+          <p class="text-xs text-gray-400 mt-2 font-light">
+            Submit layout configurations below. Our engineering advisors reply
+            within standard parameters.
+          </p>
+        </div>
+
+        <form
+          onsubmit="event.preventDefault(); alert('Transmission Locked.');"
+          class="space-y-6 text-xs font-light"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input
+              type="text"
+              placeholder="Identity Label"
+              required
+              class="w-full p-4 bg-royalSlate border border-white/5 focus:border-royalGold focus:outline-none text-white rounded-sm"
+            />
+            <input
+              type="email"
+              placeholder="Email Channel"
+              required
+              class="w-full p-4 bg-royalSlate border border-white/5 focus:border-royalGold focus:outline-none text-white rounded-sm"
+            />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input
+              type="tel"
+              placeholder="Mobile Coordinate"
+              required
+              class="w-full p-4 bg-royalSlate border border-white/5 focus:border-royalGold focus:outline-none text-white rounded-sm"
+            />
+            <input
+              type="text"
+              placeholder="Site Location"
+              class="w-full p-4 bg-royalSlate border border-white/5 focus:border-royalGold focus:outline-none text-white rounded-sm"
+            />
+          </div>
+          <textarea
+            placeholder="Specify structural parameters..."
+            rows="4"
+            class="w-full p-4 bg-royalSlate border border-white/5 focus:border-royalGold focus:outline-none text-white rounded-sm"
+          ></textarea>
+
+          <div class="text-center pt-2">
+            <button
+              type="submit"
+              class="bg-gradient-to-r from-royalGold to-royalBronze text-royalDark font-bold text-[11px] uppercase tracking-widest px-12 py-4 hover:opacity-90 transition shadow-lg rounded-sm"
+            >
+              Transmit Parameters
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      class="bg-royalDark py-10 text-center text-[10px] tracking-widest text-gray-600 uppercase border-t border-white/5"
+    >
+      <p>© 2026 Yuvin Luxury Ecosystems. Complete Discretion Asserted.</p>
+
+      <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <a
+          href="#"
+          class="w-11 h-11 bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition"
+          ><i class="fa-brands fa-whatsapp text-lg"></i
+        ></a>
+        <a
+          href="#"
+          class="w-11 h-11 bg-royalGold text-royalDark rounded-full flex items-center justify-center shadow-lg hover:scale-105 transition"
+          ><i class="fa-solid fa-phone text-xs"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 900, once: true });
+
+      const openBox = document.getElementById("royalNavToggle");
+      const boxPanel = document.getElementById("royalMobileBox");
+      openBox.addEventListener("click", () =>
+        boxPanel.classList.toggle("hidden")
+      );
+    </script>
+  </body>
+</html>

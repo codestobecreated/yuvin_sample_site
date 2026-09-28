@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Yuvin Interiors | Modern Parisian</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              parisianBlack: "#121212",
+              parisianGold: "#d4af37",
+              parisianBone: "#fcfaf6",
+              parisianTaupe: "#8a7e72",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-parisianBone text-parisianBlack font-serif overflow-x-hidden">
+    <nav
+      class="fixed w-full z-50 bg-parisianBone/80 backdrop-blur-md text-parisianBlack border-b border-parisianTaupe/10"
+    >
+      <div
+        class="max-w-7xl mx-auto px-6 py-5 flex justify-between items-center"
+      >
+        <div
+          class="text-lg tracking-[0.3em] font-light flex items-center uppercase"
+        >
+          Yuvin <span class="text-parisianGold mx-2">·</span> Studio
+        </div>
+        <div
+          class="hidden md:flex space-x-10 text-[11px] font-sans uppercase tracking-[0.2em] text-zinc-500"
+        >
+          <a
+            href="#home"
+            class="hover:text-parisianBlack transition duration-300"
+            >01. Home</a
+          >
+          <a
+            href="#about"
+            class="hover:text-parisianBlack transition duration-300"
+            >02. Vision</a
+          >
+          <a
+            href="#services"
+            class="hover:text-parisianBlack transition duration-300"
+            >03. Gallery</a
+          >
+          <a
+            href="#strategy"
+            class="hover:text-parisianBlack transition duration-300"
+            >04. Method</a
+          >
+          <a
+            href="#contact"
+            class="hover:text-parisianBlack transition duration-300"
+            >05. Inquire</a
+          >
+        </div>
+        <button class="md:hidden text-lg" id="classicNavBtn">
+          <i class="fa-solid fa-bars-staggered"></i>
+        </button>
+      </div>
+      <div
+        id="classicNavBox"
+        class="hidden bg-parisianBone text-center py-6 space-y-4 md:hidden uppercase font-sans text-xs tracking-widest border-t"
+      >
+        <a href="#home" class="block py-1">Home</a>
+        <a href="#about" class="block py-1">Vision</a>
+        <a href="#services" class="block py-1">Gallery</a>
+        <a href="#strategy" class="block py-1">Method</a>
+        <a href="#contact" class="block py-1">Inquire</a>
+      </div>
+    </nav>
+
+    <header
+      id="home"
+      class="h-screen relative flex items-center px-6 max-w-7xl mx-auto"
+    >
+      <div
+        class="grid grid-cols-1 md:grid-cols-12 gap-8 items-center w-full pt-16"
+      >
+        <div
+          class="md:col-span-6 z-10"
+          data-aos="fade-up"
+          data-aos-duration="1200"
+        >
+          <span
+            class="text-[11px] font-sans uppercase tracking-[0.4em] text-parisianTaupe block mb-4"
+            >— Bespoke Curation</span
+          >
+          <h1
+            class="text-4xl md:text-6xl font-normal leading-[1.15] tracking-wide mb-8"
+          >
+            Spaces that tell <br /><span
+              class="italic font-light text-parisianTaupe"
+              >your unique story.</span
+            >
+          </h1>
+          <a
+            href="#contact"
+            class="inline-flex items-center gap-3 font-sans text-xs uppercase tracking-[0.2em] border-b border-parisianBlack pb-2 hover:text-parisianGold hover:border-parisianGold transition-all duration-300 group"
+          >
+            Schedule Private Tour
+            <i
+              class="fa-solid fa-arrow-right-long group-hover:translate-x-2 transition-transform"
+            ></i>
+          </a>
+        </div>
+
+        <div
+          class="md:col-span-6 relative flex justify-center md:justify-end"
+          data-aos="zoom-in"
+          data-aos-duration="1400"
+        >
+          <div
+            class="w-[280px] sm:w-[350px] h-[480px] rounded-t-full overflow-hidden border border-parisianTaupe/20 p-2 bg-white/40 shadow-sm"
+          >
+            <img
+              src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800"
+              alt="Elegant Parisian Room"
+              class="w-full h-full object-cover rounded-t-full grayscale-[30%] hover:grayscale-0 transition duration-1000"
+            />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section
+      id="about"
+      class="py-28 max-w-6xl mx-auto px-6 border-t border-parisianTaupe/10"
+    >
+      <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-start">
+        <div class="md:col-span-4" data-aos="fade-right">
+          <h2
+            class="text-2xl md:text-3xl font-light tracking-wide uppercase leading-tight"
+          >
+            Crafting True <br /><span class="italic text-parisianTaupe"
+              >Distinction.</span
+            >
+          </h2>
+        </div>
+        <div
+          class="md:col-span-8 font-sans text-sm text-zinc-600 leading-[1.8] space-y-6"
+          data-aos="fade-left"
+        >
+          <p>
+            Yuvin Interiors builds high-fidelity architectural spaces at
+            remarkably rational financial parameters. We match international
+            design standards seamlessly, focusing primarily on clean living
+            solutions, commercial aesthetics, and luxury corporate blueprints.
+          </p>
+          <p>
+            Operating our private assembly facility in Chennai empowers our
+            teams to optimize materials down to factory-direct figures. No
+            middle-man premium inflation. Complete structural transparency
+            across 200+ finished assignments.
+          </p>
+        </div>
+      </div>
+
+      <div
+        class="grid grid-cols-2 md:grid-cols-4 gap-8 mt-20 border-t border-b border-parisianTaupe/20 py-10 text-center font-sans"
+      >
+        <div data-aos="fade-up">
+          <span
+            class="text-3xl font-light tracking-tight block text-parisianBlack"
+            >200 +</span
+          >
+          <span
+            class="text-[10px] uppercase tracking-[0.2em] text-parisianTaupe mt-1 block"
+            >Exquisite Spaces</span
+          >
+        </div>
+        <div data-aos="fade-up" data-aos-delay="100">
+          <span
+            class="text-3xl font-light tracking-tight block text-parisianBlack"
+            >2016</span
+          >
+          <span
+            class="text-[10px] uppercase tracking-[0.2em] text-parisianTaupe mt-1 block"
+            >Established Horizon</span
+          >
+        </div>
+        <div data-aos="fade-up" data-aos-delay="200">
+          <span
+            class="text-3xl font-light tracking-tight block text-parisianBlack"
+            >35 Days</span
+          >
+          <span
+            class="text-[10px] uppercase tracking-[0.2em] text-parisianTaupe mt-1 block"
+            >Fluid Assembly</span
+          >
+        </div>
+        <div data-aos="fade-up" data-aos-delay="300">
+          <span
+            class="text-3xl font-light tracking-tight block text-parisianBlack"
+            >10 Yrs</span
+          >
+          <span
+            class="text-[10px] uppercase tracking-[0.2em] text-parisianTaupe mt-1 block"
+            >Full Guarantee</span
+          >
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="py-20 bg-zinc-50 border-b border-zinc-100">
+      <div class="max-w-7xl mx-auto px-6">
+        <div class="text-center max-w-xl mx-auto mb-16" data-aos="fade-up">
+          <span
+            class="text-[10px] font-sans uppercase tracking-[0.3em] text-parisianTaupe block mb-3"
+            >Architectural Catalogue</span
+          >
+          <h2 class="text-3xl font-light tracking-wide">
+            Signature Masterpieces
+          </h2>
+        </div>
+
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-10">
+          <div class="space-y-4 group" data-aos="fade-up">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Wardrobe"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 01</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Bespoke In-Built Wardrobe
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Kids"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 02</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Creative Kids Retreat
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Kitchen"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 03</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Sleek Culinary Station
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Living"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 04</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Soft Modern Living Hub
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1620626011160-9928f1b2b63a?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Washroom"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 05</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Polished Slate Washroom
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Lobby"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 06</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Executive Lounge Arena
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Clinic"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 07</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Wellness Consultation Clinic
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up" data-aos-delay="100">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Office"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 08</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Corporate Workspace Deck
+              </h3>
+            </div>
+          </div>
+          <div class="space-y-4 group" data-aos="fade-up" data-aos-delay="200">
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Lounge"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 09</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Premium Velvet Lounge
+              </h3>
+            </div>
+          </div>
+          <div
+            class="space-y-4 group sm:col-span-2 md:col-span-1"
+            data-aos="fade-up"
+            data-aos-delay="300"
+          >
+            <div
+              class="h-80 w-full overflow-hidden rounded-t-full border border-zinc-200 p-1 bg-white shadow-sm"
+            >
+              <img
+                src="https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?q=80&w=600"
+                class="w-full h-full object-cover rounded-t-full group-hover:scale-105 transition duration-700"
+                alt="Suite"
+              />
+            </div>
+            <div class="text-center font-sans">
+              <span
+                class="text-[10px] uppercase tracking-widest text-parisianTaupe block"
+                >Model 10</span
+              >
+              <h3 class="text-xs font-semibold uppercase tracking-wide mt-1">
+                Signature Zen Bedroom
+              </h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="strategy" class="py-24 max-w-5xl mx-auto px-6">
+      <div class="text-center max-w-md mx-auto mb-20" data-aos="fade-up">
+        <h2
+          class="text-2xl font-light uppercase tracking-wide text-parisianBlack"
+        >
+          Our Methodological Path
+        </h2>
+        <div class="w-8 h-[1px] bg-parisianTaupe mx-auto mt-4"></div>
+      </div>
+
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-12 font-sans">
+        <div
+          class="space-y-4 border-l border-zinc-200 pl-4"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <span
+            class="text-xs text-parisianGold font-bold tracking-widest block"
+            >I.</span
+          >
+          <h4
+            class="text-xs font-bold uppercase tracking-widest text-parisianBlack"
+          >
+            Scoping Interview
+          </h4>
+          <p class="text-xs text-zinc-500 leading-relaxed">
+            Mapping individual client expectations and aesthetic specifications
+            smoothly.
+          </p>
+        </div>
+        <div
+          class="space-y-4 border-l border-zinc-200 pl-4"
+          data-aos="fade-up"
+          data-aos-delay="200"
+        >
+          <span
+            class="text-xs text-parisianGold font-bold tracking-widest block"
+            >II.</span
+          >
+          <h4
+            class="text-xs font-bold uppercase tracking-widest text-parisianBlack"
+          >
+            Curation Deck
+          </h4>
+          <p class="text-xs text-zinc-500 leading-relaxed">
+            Assembling high-definition floor maps and delicate material layouts.
+          </p>
+        </div>
+        <div
+          class="space-y-4 border-l border-zinc-200 pl-4"
+          data-aos="fade-up"
+          data-aos-delay="300"
+        >
+          <span
+            class="text-xs text-parisianGold font-bold tracking-widest block"
+            >III.</span
+          >
+          <h4
+            class="text-xs font-bold uppercase tracking-widest text-parisianBlack"
+          >
+            Value Diagnostics
+          </h4>
+          <p class="text-xs text-zinc-500 leading-relaxed">
+            Refining raw production costs across our local manufacturing engine.
+          </p>
+        </div>
+        <div
+          class="space-y-4 border-l border-zinc-200 pl-4"
+          data-aos="fade-up"
+          data-aos-delay="400"
+        >
+          <span
+            class="text-xs text-parisianGold font-bold tracking-widest block"
+            >IV.</span
+          >
+          <h4
+            class="text-xs font-bold uppercase tracking-widest text-parisianBlack"
+          >
+            Refined Handover
+          </h4>
+          <p class="text-xs text-zinc-500 leading-relaxed">
+            Punctual, clean asset integration inside pre-set contractual
+            matrices.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section
+      id="contact"
+      class="py-24 bg-[#f5f1ea] border-t border-zinc-200/50"
+    >
+      <div class="max-w-4xl mx-auto px-6">
+        <div class="text-center max-w-xl mx-auto mb-12" data-aos="fade-up">
+          <h2
+            class="text-3xl font-light uppercase tracking-wide text-parisianBlack"
+          >
+            Initiate Connection
+          </h2>
+          <p class="text-xs font-sans text-zinc-500 mt-2 tracking-wider">
+            Leave details below. Our curation advisors respond within one
+            business roadmap interval.
+          </p>
+        </div>
+
+        <form
+          onsubmit="event.preventDefault(); alert('Inquiry Transmitted.');"
+          class="space-y-6 font-sans text-xs"
+          data-aos="fade-up"
+          data-aos-delay="100"
+        >
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input
+              type="text"
+              placeholder="Full Name"
+              required
+              class="w-full p-4 bg-white/70 border border-zinc-200 rounded-none outline-none focus:bg-white focus:border-parisianBlack transition"
+            />
+            <input
+              type="email"
+              placeholder="Email Reference"
+              required
+              class="w-full p-4 bg-white/70 border border-zinc-200 rounded-none outline-none focus:bg-white focus:border-parisianBlack transition"
+            />
+          </div>
+          <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+            <input
+              type="tel"
+              placeholder="Mobile Identity"
+              required
+              class="w-full p-4 bg-white/70 border border-zinc-200 rounded-none outline-none focus:bg-white focus:border-parisianBlack transition"
+            />
+            <input
+              type="text"
+              placeholder="Site Location"
+              class="w-full p-4 bg-white/70 border border-zinc-200 rounded-none outline-none focus:bg-white focus:border-parisianBlack transition"
+            />
+          </div>
+          <textarea
+            placeholder="Tell us about your structural targets..."
+            rows="4"
+            class="w-full p-4 bg-white/70 border border-zinc-200 rounded-none outline-none focus:bg-white focus:border-parisianBlack transition"
+          ></textarea>
+
+          <div class="text-center">
+            <button
+              type="submit"
+              class="bg-parisianBlack text-white hover:bg-zinc-800 text-[10px] font-bold uppercase tracking-[0.3em] px-10 py-4 transition shadow-md"
+            >
+              Transmit Curation Request
+            </button>
+          </div>
+        </form>
+      </div>
+    </section>
+
+    <footer
+      class="bg-white py-10 text-center font-sans text-[10px] uppercase tracking-[0.2em] text-zinc-400 border-t border-zinc-100"
+    >
+      <p>© 2026 Yuvin Interior Architecture. Punctual Curation Globally.</p>
+
+      <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+        <a
+          href="#"
+          class="w-10 h-10 bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-md hover:scale-110 transition"
+          ><i class="fa-brands fa-whatsapp text-base"></i
+        ></a>
+        <a
+          href="#"
+          class="w-10 h-10 bg-parisianBlack text-white rounded-full flex items-center justify-center shadow-md hover:scale-110 transition"
+          ><i class="fa-solid fa-phone text-xs"></i
+        ></a>
+      </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init({ duration: 900, once: true });
+
+      const toggler = document.getElementById("classicNavBtn");
+      const boxNav = document.getElementById("classicNavBox");
+      toggler.addEventListener("click", () =>
+        boxNav.classList.toggle("hidden")
+      );
+    </script>
+  </body>
+</html>

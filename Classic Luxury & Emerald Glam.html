@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yuvin Interiors | Next Luxury Concept</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        emeraldDeep: '#062c23',
+                        goldAccent: '#dfba73',
+                        lightSilk: '#fcfbfa',
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="bg-lightSilk text-zinc-900 font-sans overflow-x-hidden">
+
+    <nav class="fixed w-full z-50 bg-emeraldDeep/95 backdrop-blur-md text-white border-b border-goldAccent/20">
+        <div class="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+            <div class="text-xl font-serif tracking-widest flex items-center gap-2 text-goldAccent">
+                <i class="fa-solid fa-crown"></i> YUVIN INTERIORS
+            </div>
+            <div class="hidden md:flex space-x-8 text-xs uppercase tracking-widest">
+                <a href="#home" class="hover:text-goldAccent transition duration-300">Home</a>
+                <a href="#about" class="hover:text-goldAccent transition duration-300">About</a>
+                <a href="#services" class="hover:text-goldAccent transition duration-300">Collection</a>
+                <a href="#strategy" class="hover:text-goldAccent transition duration-300">Process</a>
+                <a href="#contact" class="hover:text-goldAccent transition duration-300">Inquire</a>
+            </div>
+            <button class="md:hidden text-xl text-goldAccent" id="menuToggle">
+                <i class="fa-solid fa-bars"></i>
+            </button>
+        </div>
+        <div id="mobileDropdown" class="hidden bg-emeraldDeep text-center py-4 space-y-3 md:hidden uppercase text-xs tracking-wider border-t border-goldAccent/10">
+            <a href="#home" class="block hover:text-goldAccent">Home</a>
+            <a href="#about" class="block hover:text-goldAccent">About</a>
+            <a href="#services" class="block hover:text-goldAccent">Collection</a>
+            <a href="#strategy" class="block hover:text-goldAccent">Process</a>
+            <a href="#contact" class="block hover:text-goldAccent">Inquire</a>
+        </div>
+    </nav>
+
+    <header id="home" class="relative h-screen flex items-center bg-emeraldDeep text-white pt-16">
+        <div class="max-w-7xl mx-auto px-6 w-full grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+            <div data-aos="fade-right" data-aos-duration="1200">
+                <span class="text-goldAccent uppercase tracking-widest text-xs font-semibold block mb-3">Premium Space Designers</span>
+                <h1 class="text-4xl md:text-6xl font-serif mb-6 leading-tight">Crafting Spaces <br>With Eternal Luxury</h1>
+                <p class="text-zinc-400 text-sm max-w-md mb-8 leading-relaxed">International designs tailored flawlessly to match your unique financial plan and style preferences.</p>
+                <a href="#contact" class="inline-block bg-goldAccent hover:bg-yellow-600 text-emeraldDeep font-bold px-8 py-3.5 rounded-none text-xs uppercase tracking-widest transition-all shadow-lg">
+                    Book Private Consultation
+                </a>
+            </div>
+            <div class="relative h-[450px] hidden md:block" data-aos="fade-left" data-aos-duration="1200">
+                <div class="absolute inset-0 border border-goldAccent translate-x-4 translate-y-4"></div>
+                <img src="https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?q=80&w=800" alt="Luxury Living Room" class="absolute inset-0 w-full h-full object-cover shadow-2xl">
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="py-24 max-w-6xl mx-auto px-6">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-12 items-center">
+            <div class="md:col-span-2 space-y-6" data-aos="fade-up">
+                <div class="w-12 h-[2px] bg-goldAccent"></div>
+                <h2 class="text-3xl font-serif tracking-wide uppercase text-emeraldDeep">Our Vision & Legacy</h2>
+                <p class="text-zinc-600 text-sm leading-relaxed">Yuvin Interiors provides world-class interior design at an affordable price point with premium quality built to international benchmarks. We specialize in bespoke home layouts, commercial workspaces, corporate zones, and premium stage setups.</p>
+                <p class="text-zinc-600 text-sm leading-relaxed">Backed by our personal production unit situated safely in Chennai, we pass factory-direct cost efficiency directly to your project budgets without compromising raw-material grade elements.</p>
+            </div>
+            <div class="grid grid-cols-2 gap-4" data-aos="zoom-in">
+                <div class="bg-emeraldDeep text-white p-6 border-b-4 border-goldAccent">
+                    <span class="text-2xl font-serif text-goldAccent block">200+</span>
+                    <span class="text-[10px] uppercase tracking-wider text-zinc-400">Completed Projects</span>
+                </div>
+                <div class="bg-zinc-900 text-white p-6 border-b-4 border-goldAccent">
+                    <span class="text-2xl font-serif text-goldAccent block">Est.</span>
+                    <span class="text-[10px] uppercase tracking-wider text-zinc-400">Since 2016</span>
+                </div>
+                <div class="bg-zinc-900 text-white p-6 border-b-4 border-goldAccent">
+                    <span class="text-2xl font-serif text-goldAccent block">35 Days</span>
+                    <span class="text-[10px] uppercase tracking-wider text-zinc-400">Fast Turnaround</span>
+                </div>
+                <div class="bg-emeraldDeep text-white p-6 border-b-4 border-goldAccent">
+                    <span class="text-2xl font-serif text-goldAccent block">10 Yrs</span>
+                    <span class="text-[10px] uppercase tracking-wider text-zinc-400">Full Warranty</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-20 bg-zinc-900 text-white">
+        <div class="max-w-7xl mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-start md:items-end mb-12">
+                <div>
+                    <span class="text-goldAccent uppercase tracking-widest text-xs font-semibold block mb-2">Curated Portfolios</span>
+                    <h2 class="text-3xl font-serif tracking-wide">Signature Masterpieces (10 Concepts)</h2>
+                </div>
+                <div class="mt-6 md:mt-0 flex flex-wrap gap-2 text-xs">
+                    <button onclick="filterStyles('all')" class="style-filter-btn px-4 py-2 bg-goldAccent text-emeraldDeep font-bold tracking-widest uppercase">All Exhibits</button>
+                    <button onclick="filterStyles('home')" class="style-filter-btn px-4 py-2 border border-zinc-700 hover:border-goldAccent tracking-widest uppercase transition">Residential</button>
+                    <button onclick="filterStyles('commercial')" class="style-filter-btn px-4 py-2 border border-zinc-700 hover:border-goldAccent tracking-widest uppercase transition">Commercial</button>
+                </div>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-6">
+                <div class="style-item md:col-span-2 relative group overflow-hidden h-80" data-type="home" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1595428774223-ef52624120d2?q=80&w=700" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Wardrobe">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 01</span>
+                        <h3 class="text-lg font-serif">Elegant Built-In Wardrobe</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="home" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1560185007-c5ca9d2c014d?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Kids">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 02</span>
+                        <h3 class="text-lg font-serif">Kids Living Quarters</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="home" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1556911220-e15b29be8c8f?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Kitchen">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 03</span>
+                        <h3 class="text-lg font-serif">Sleek Culinary Kitchen</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="home" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1616486338812-3dadae4b4ace?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Living">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 04</span>
+                        <h3 class="text-lg font-serif">Cozy Living Space</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="home" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1620626011160-9928f1b2b63a?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Washroom">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 05</span>
+                        <h3 class="text-lg font-serif">Polished Washroom Oasis</h3>
+                    </div>
+                </div>
+                <div class="style-item md:col-span-2 relative group overflow-hidden h-80" data-type="commercial" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?q=80&w=700" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Lobby">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 06</span>
+                        <h3 class="text-lg font-serif">Corporate Business Lobby</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="commercial" data-aos="fade-up">
+                    <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Clinic">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 07</span>
+                        <h3 class="text-lg font-serif">Creative Wellness Clinic</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="commercial" data-aos="fade-up" data-aos-delay="100">
+                    <img src="https://images.unsplash.com/photo-1524758631624-e2822e304c36?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Office">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 08</span>
+                        <h3 class="text-lg font-serif">Modern Office Headquarters</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="commercial" data-aos="fade-up" data-aos-delay="200">
+                    <img src="https://images.unsplash.com/photo-1517248135467-4c7edcad34c4?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Lounge">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 09</span>
+                        <h3 class="text-lg font-serif">Spacious Executive Lounge</h3>
+                    </div>
+                </div>
+                <div class="style-item relative group overflow-hidden h-80" data-type="home" data-aos="fade-up" data-aos-delay="300">
+                    <img src="https://images.unsplash.com/photo-1616137422495-1e9e46e2aa77?q=80&w=600" class="w-full h-full object-cover group-hover:scale-110 transition duration-700" alt="Suite">
+                    <div class="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent p-6 flex flex-col justify-end">
+                        <span class="text-goldAccent text-[10px] uppercase tracking-widest">Exhibit 10</span>
+                        <h3 class="text-lg font-serif">Premium Master Suite</h3>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategy" class="py-24 max-w-6xl mx-auto px-6">
+        <span class="text-center block text-goldAccent uppercase tracking-widest text-xs font-bold mb-2">Our Workflow</span>
+        <h2 class="text-3xl font-serif text-center mb-16 text-emeraldDeep">Seamless Operational Roadmap</h2>
+        
+        <div class="grid grid-cols-1 md:grid-cols-4 gap-8 relative">
+            <div class="bg-white p-6 rounded shadow-sm border-t-4 border-emeraldDeep hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="100">
+                <span class="text-4xl font-serif text-goldAccent/40 block mb-4">01</span>
+                <h4 class="font-bold text-sm uppercase tracking-wide mb-3">Discovery Meeting</h4>
+                <p class="text-xs text-zinc-500 leading-relaxed">Understanding architectural parameters and client style configurations completely.</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow-sm border-t-4 border-emeraldDeep hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="200">
+                <span class="text-4xl font-serif text-goldAccent/40 block mb-4">02</span>
+                <h4 class="font-bold text-sm uppercase tracking-wide mb-3">Concept Presentation</h4>
+                <p class="text-xs text-zinc-500 leading-relaxed">Exploring aesthetic layouts and raw element mood boards seamlessly.</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow-sm border-t-4 border-emeraldDeep hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="300">
+                <span class="text-4xl font-serif text-goldAccent/40 block mb-4">03</span>
+                <h4 class="font-bold text-sm uppercase tracking-wide mb-3">Cost Optimization</h4>
+                <p class="text-xs text-zinc-500 leading-relaxed">Refining material estimates meticulously matching financial parameters.</p>
+            </div>
+            <div class="bg-white p-6 rounded shadow-sm border-t-4 border-emeraldDeep hover:shadow-xl transition" data-aos="fade-up" data-aos-delay="400">
+                <span class="text-4xl font-serif text-goldAccent/40 block mb-4">04</span>
+                <h4 class="font-bold text-sm uppercase tracking-wide mb-3">Flawless Handover</h4>
+                <p class="text-xs text-zinc-500 leading-relaxed">Punctual site delivery executed perfectly within pre-set contractual timelines.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-20 bg-emeraldDeep text-white">
+        <div class="max-w-6xl mx-auto px-6 grid grid-cols-1 md:grid-cols-2 gap-12">
+            <div data-aos="fade-right">
+                <h2 class="text-3xl font-serif text-goldAccent mb-6">Begin Your Project Journey</h2>
+                <p class="text-zinc-400 text-sm mb-8 leading-relaxed">Fill out the brief requirements panel. Our architectural curation team will respond with a tailored blueprint draft package within one working business window.</p>
+                
+                <div class="space-y-4 text-xs">
+                    <p class="flex items-center gap-3"><i class="fa-solid fa-location-dot text-goldAccent"></i> 10/176, Anjaneyar Kovil street, Santhosapuram, Chennai - 600073</p>
+                    <p class="flex items-center gap-3"><i class="fa-solid fa-envelope text-goldAccent"></i> projects@yuvininteriors.com</p>
+                </div>
+            </div>
+            
+            <form onsubmit="event.preventDefault(); alert('Inquiry Saved.');" class="space-y-4" data-aos="fade-left">
+                <input type="text" placeholder="Full Name" required class="w-full p-3.5 bg-zinc-800/50 border border-zinc-700 text-sm focus:outline-none focus:border-goldAccent text-white">
+                <input type="email" placeholder="Email Address" required class="w-full p-3.5 bg-zinc-800/50 border border-zinc-700 text-sm focus:outline-none focus:border-goldAccent text-white">
+                <input type="tel" placeholder="Mobile Number" required class="w-full p-3.5 bg-zinc-800/50 border border-zinc-700 text-sm focus:outline-none focus:border-goldAccent text-white">
+                <textarea placeholder="Tell us about your space..." rows="4" class="w-full p-3.5 bg-zinc-800/50 border border-zinc-700 text-sm focus:outline-none focus:border-goldAccent text-white"></textarea>
+                <button type="submit" class="w-full bg-goldAccent text-emeraldDeep font-bold p-3.5 text-xs uppercase tracking-widest hover:bg-yellow-600 transition">Transmit Details</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="bg-zinc-950 text-zinc-500 py-8 text-center text-xs border-t border-zinc-800">
+        <p>© 2026 Yuvin Interiors. Architectural Excellence Globally.</p>
+        
+        <div class="fixed bottom-6 right-6 z-50 flex flex-col gap-3">
+            <a href="#" class="w-11 h-11 bg-emerald-600 text-white rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition"><i class="fa-brands fa-whatsapp text-lg"></i></a>
+            <a href="#" class="w-11 h-11 bg-goldAccent text-emeraldDeep rounded-full flex items-center justify-center shadow-lg hover:scale-110 transition"><i class="fa-solid fa-phone text-sm"></i></a>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({ duration: 900, once: true });
+
+        // Mobile Nav Trigger
+        const btn = document.getElementById('menuToggle');
+        const box = document.getElementById('mobileDropdown');
+        btn.addEventListener('click', () => box.classList.toggle('hidden'));
+
+        // Exhibit Grid Filter
+        function filterStyles(type) {
+            const items = document.querySelectorAll('.style-item');
+            items.forEach(item => {
+                if(type === 'all' || item.getAttribute('data-type') === type) {
+                    item.style.display = 'block';
+                } else {
+                    item.style.display = 'none';
+                }
+            });
+        }
+    </script>
+</body>
+</html> 
